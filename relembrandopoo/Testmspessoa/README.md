@@ -38,13 +38,13 @@
 - Arquitetura modular que permite manutenção e extensibilidade.
 
 ---
-# MicroserviceComJAVAeTestUnitario
+# 💻 MicroserviceComJAVAeTestUnitario
 Microservices simples em JAVA com Spring Boot realizando um Teste Unitário Simples
 
 
 ---
 
-## Estrutura do Projeto
+## 📄 Estrutura do Projeto
 
 ```
 Testmspessoa
@@ -83,7 +83,7 @@ Testmspessoa
 ├ deps.txt
 ├ .gitignore
 ```
-## CRUD - Testando um cadastro:
+## ✅ CRUD - Testando um cadastro:
 
 * Realizando no browser com swagger: http://localhost:8080/swagger-ui/index.html#/ 
   * Realize a inserção de um nome e um cpf com nove dígitos;
@@ -92,7 +92,7 @@ Testmspessoa
 ![Teste Unitário Executado com Sucesso](./images/post201.png)
 
 ---
-## CRUD - Consultando cadastro:
+## ✅ CRUD - Consultando cadastro:
 
 * Realizando no browser com swagger: http://localhost:8080/swagger-ui/index.html#/
   * Realize um click na opção try out;
@@ -103,7 +103,65 @@ Testmspessoa
 
 ---
 
-## Teste Unitário
+
+## 📄 Diagrama UML da Estrutura
+
+![Diagrama UML do Projeto](./uml_microservice.png)
+
+---
+
+## 📄 Objetivo
+Relembrar os conceitos de orientação a objetos e estruturas de projeto com Spring Boot, utilizando:
+- Boas práticas de DTO e Exception
+- Camadas bem definidas (Controller, Model, Repository)
+- Testes unitários com foco no comportamento
+
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
+
+---
+
+## 🧪 Testando via Terminal
+
+Você pode rodar os testes unitários diretamente no terminal:
+
+```bash
+./gradlew clean test
+```
+
+Ou, para compilar e executar o projeto:
+
+```bash
+./gradlew build
+./gradlew bootRun
+```
+
+Para rodar com o wrapper no Windows:
+
+```bash
+gradlew.bat bootRun
+```
+
+---
+
+## 🛠️ Requisições de Teste
+
+Você pode testar os endpoints com ferramentas como **Postman** ou **Insomnia**.
+
+**Exemplo de GET**:
+```
+GET http://localhost:8080/api/pessoas
+```
+
+**Exemplo de POST**:
+```
+POST http://localhost:8080/api/pessoas
+Content-Type: application/json
+{
+  "nome": "Albino",
+  "cpf": "12345678901"
+}
+```
+## 🛠️Teste Unitário
 
 - Os testes foram realizados com **JUnit 5**, focando na camada de `controller`.
 
@@ -112,23 +170,3 @@ Testmspessoa
 ![Teste Unitário Executado com Sucesso](./images/TesteUnit.png)
 
 ---
-
-## :art: Diagrama UML da Estrutura
-
-![Diagrama UML do Projeto](./uml_microservice.png)
-
----
-
-## :memo: Objetivo
-Relembrar os conceitos de orientação a objetos e estruturas de projeto com Spring Boot, utilizando:
-- Boas práticas de DTO e Exception
-- Camadas bem definidas (Controller, Model, Repository)
-- Testes unitários com foco no comportamento
-
----
-
-## :wave: Autor
-
-[Albino Pires](https://github.com/AlbinoPires) - Desenvolvedor em evolução, relembrando conceitos e subindo projetos de microserviços com testes para repositório pessoal.
-
-
