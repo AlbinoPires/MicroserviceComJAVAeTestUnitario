@@ -92,7 +92,7 @@ Testmspessoa
 
   - **Print dos testes executados com sucesso:**
 
-![Teste Unitário Executado com Sucesso](./TestUnitarioSucesso.png)
+![Teste Unitário Executado com Sucesso](./images/TesteUnit.png)
 
 ---
 
