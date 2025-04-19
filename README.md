@@ -2,7 +2,7 @@
 # 👋 Olá, eu sou Albino Pires!
 
 - 🌐 Cloud Enthusiast | AWS Cloud | Spring Boot | Linux | Java Development | Python
-- 🌐 BackEnd na GFT Brasil
+- 👨‍💻 BackEnd na GFT Brasil
 
 ## 🌐 Onde me encontrar
 
@@ -16,7 +16,7 @@
 🛠️ Tecnologias Utilizadas
 - Resumo:
 
-         ✅ Java 17 |✅ Spring Boot |✅ JUnit 5 |✅ Gradle |✅ IntelliJ IDEA |✅ Swagger | Insomnia
+         ✅ Java 17 |✅ Spring Boot |✅ JUnit 5 |✅ Gradle |✅ IntelliJ IDEA |✅ Swagger |✅Insomnia
 
 - 📄 Descrições:
 
@@ -30,7 +30,7 @@
 
   * 🧪 Insomnia: Ferramenta usada para testar os endpoints da API de forma simples e eficaz.
 
-⚙️ Funcionalidades
+⚙️ Funcionalidades 🔐
 - Endpoints bem definidos e documentados no Swagger.
 
 - Cobertura de testes unitários para validação da lógica de negócios.
