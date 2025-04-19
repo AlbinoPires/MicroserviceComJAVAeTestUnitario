@@ -14,8 +14,6 @@
 # 📚 Estudo JAVA com Spring Boot 💻
 
 🛠️ Tecnologias Utilizadas
-
-🛠️ Tecnologias Utilizadas
 - Resumo:
 
         * Java 17 | Spring Boot | JUnit 5 | Gradle | IntelliJ IDEA | Swagger | Insomnia
