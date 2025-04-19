@@ -16,21 +16,21 @@
 🛠️ Tecnologias Utilizadas
 - Resumo:
 
-        * Java 17 | Spring Boot | JUnit 5 | Gradle | IntelliJ IDEA | Swagger | Insomnia
+         ✅ Java 17 |✅ Spring Boot |✅ JUnit 5 |✅ Gradle |✅ IntelliJ IDEA |✅ Swagger | Insomnia
 
-- Descrições:
+- 📄 Descrições:
 
-  * Java: Linguagem principal utilizada para o desenvolvimento do projeto.
+  * 👨‍💻 Java: Linguagem principal utilizada para o desenvolvimento do projeto.
 
-  * Spring Boot: Framework que agiliza o desenvolvimento de aplicações Java, facilitando a configuração e implementação.
+  * ⚙️ Spring Boot: Framework que agiliza o desenvolvimento de aplicações Java, facilitando a configuração e implementação.
 
-  * Mockito: Ferramenta para criação de testes unitários, garantindo a qualidade e a confiabilidade do código.
+  * 🧪 Mockito: Ferramenta para criação de testes unitários, garantindo a qualidade e a confiabilidade do código.
 
-  * Swagger: Utilizado para documentar a API, fornecendo uma interface interativa para testes e navegação dos endpoints.
+  * 📄 Swagger: Utilizado para documentar a API, fornecendo uma interface interativa para testes e navegação dos endpoints.
 
-  * Insomnia: Ferramenta usada para testar os endpoints da API de forma simples e eficaz.
-  
-🚀 Funcionalidades
+  * 🧪 Insomnia: Ferramenta usada para testar os endpoints da API de forma simples e eficaz.
+
+⚙️ Funcionalidades
 - Endpoints bem definidos e documentados no Swagger.
 
 - Cobertura de testes unitários para validação da lógica de negócios.
