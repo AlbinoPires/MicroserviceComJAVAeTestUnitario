@@ -83,6 +83,23 @@ Testmspessoa
 ├ deps.txt
 ├ .gitignore
 ```
+## CRUD - Testando um cadastro:
+
+* Realizando no browser com swagger: http://localhost:8080/swagger-ui/index.html#/ 
+  * Realize a inserção de um nome e um cpf com nove dígitos;
+  * Deve retornar um Status Code 201;
+
+![Teste Unitário Executado com Sucesso](./images/post201.png)
+
+---
+## CRUD - Consultando cadastro:
+
+* Realizando no browser com swagger: http://localhost:8080/swagger-ui/index.html#/
+  * Realize um click na opção try out;
+  * Deve retornar um Status Code 200;
+
+![Teste Unitário Executado com Sucesso](./images/post200.png)
+
 
 ---
 
