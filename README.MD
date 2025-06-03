@@ -104,7 +104,7 @@ CartorioTest contém o documento abaixo com a arvore do projeto.
 
 ## ✅ CRUD - Testando Apache Camel - Persistido:
 
-    * DBeaver / MariaDB - Visualizando a persistência do Payload recebido;
+    * DBeaver / Banco de Dados MariaDB - Visualizando a persistência do Payload recebido;
     * Deve retornar um Status Code 201;
 
 
