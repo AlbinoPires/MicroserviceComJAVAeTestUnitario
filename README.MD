@@ -89,7 +89,9 @@ CartorioTest contém o documento abaixo com a arvore do projeto.
     * Realize a inserção de dados;
     * Deve retornar um Status Code 201;
 
-![Teste Unitário Executado com Sucesso](./images/testepersistidoMariaDB.png)
+
+ 
+![Teste Unitário Executado com Sucesso](CartorioTest/images/testepersistidoMariaDB.png)
 
 ---
 ## ✅ CRUD - Testando Apache Camel:
@@ -98,7 +100,7 @@ CartorioTest contém o documento abaixo com a arvore do projeto.
     * Realize um click na opção try out;
     * Deve retornar um Status Code 201;
 
-![Teste Unitário Executado com Sucesso](./images/CRUDPOSTAPACHETEST1.png)
+![Teste Unitário Executado com Sucesso](CartorioTest/images/CRUDPOSTAPACHETEST1.png)
 
 ## ✅ CRUD - Testando Apache Camel - Persistido:
 
@@ -106,7 +108,7 @@ CartorioTest contém o documento abaixo com a arvore do projeto.
     * Deve retornar um Status Code 201;
 
 
-![Teste Unitário Executado com Sucesso](./images/CRUDPOSTAPACHETEST2.png)
+![Teste Unitário Executado com Sucesso](CartorioTest/images/CRUDPOSTAPACHETEST2.png)
 
 
 ---
@@ -114,7 +116,7 @@ CartorioTest contém o documento abaixo com a arvore do projeto.
 ## 📄 Cobertura de Testes
 
 
-![Teste Unitário Executado com Sucesso](./images/testecobertura1.png)
+![Teste Unitário Executado com Sucesso](CartorioTest/images/testecobertura1.png)
 
 ---
 
